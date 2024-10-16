@@ -6,7 +6,8 @@
 - Tkinter
 
 ## Install & Run
-가볍게 만든 프로그램이라 특별한 실행파일은 만들지 않았습니다. 클론해서 쓰세요.
+- macOS용 실행파일은 릴리즈했습니다.
+- 가볍게 만든 프로그램이라 윈도우용 실행파일은 만들지 않았습니다. 클론해서 쓰세요.
 
 ## Screenshot
 <img width="246" alt="스크린샷 2024-10-16 06 57 19" src="https://github.com/user-attachments/assets/12742f9c-c561-4dae-9faf-b4c110fea25d">
