@@ -104,7 +104,18 @@ class TimerApp:
     
     def times_up(self):
         self.root.bell()
-        messagebox.showinfo("Timer", "Time's up!")
+        top = tk.Toplevel(self.root)
+        top.title("Time's up!")
+        top.geometry("200x125")
+        top.resizable(False, False)
+
+        message = tk.Label(top, text="Time's up!", font=("Jetbrains Mono", 20))
+        message.pack(expand=True, pady=20)
+
+        close_button = ttk.Button(top, text="OK", command=top.destroy)
+        close_button.pack(pady=(0, 20))
+
+        top.attributes('-topmost', True)
     
     def reset_timer(self):
         if self.after_id is not None:
